@@ -2,6 +2,8 @@
 
 # Inheritence
 Inheritence = penurunan
+	
+	
 	contoh =
 		Bicycle extends Vehicles
 		
@@ -10,14 +12,18 @@ Inheritence = penurunan
 		
 # Encapsulation
 Encapsulation = enkapsulasi (konsep melindungi kode/value yang ada pada class dari pengaksesan luar class)
+	
+	
 	contoh = 
 	private String Color;
 		private = hanya class itu sendiri yang bisa melihat / mengakses
 
 # Polymorphism
 Polymorphism = sebuah objek yang mempunyai bentuk lebih dari satu.
-	contoh = 
-	 public void HornSound() {
+	
+	
+    contoh = 
+    public void HornSound() {
         System.out.println("Bruumm...");
     }
 
