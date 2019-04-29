@@ -1,10 +1,28 @@
-import java.lang.*;
+public class Vehicles {
 
-public class Vehicles{
-    public String Brand = "Yamaha";
-    
-    public void Sound(){
-        System.out.println("Bruumm..");
+    // Encapsulation
+    private String Type;
+
+    public Vehicles() {
+        this.Type = "Land Transportation";
     }
-    
+
+    public String GetType() {
+        return Type;
+    }
+
+    public void SetType(String newType) {
+        this.Type = newType;
+    }
+
+    // Polymorphism
+    public void HornSound() {
+        System.out.println("Bruumm...");
+    }
+
+    // Polymorphism
+    public void HornSound(String newSound) {
+        System.out.println(newSound);
+    }
+
 }

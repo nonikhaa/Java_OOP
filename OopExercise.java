@@ -1,8 +1,16 @@
-import java.lang.*;
+public class OopExercise {
 
-public class OopExercise{
+    public static void main(String[] args) {
+        Car objCar = new Car();
+        String type = objCar.GetType();
 
-    public static void main (String[] args){
-        
+        System.out.println(type);
+        objCar.Greetings();
+        objCar.HornSound();
+
+        Bicycle objBicycle = new Bicycle();
+        objBicycle.Greetings();
+        objBicycle.HornSound("Kriiing Kriiing");
+
     }
 }
