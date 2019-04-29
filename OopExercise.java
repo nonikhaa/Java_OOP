@@ -9,6 +9,7 @@ public class OopExercise {
         objCar.HornSound();
 
         Bicycle objBicycle = new Bicycle();
+        objBicycle.SetColor("Pink");
         objBicycle.Greetings();
         objBicycle.HornSound("Kriiing Kriiing");
 
